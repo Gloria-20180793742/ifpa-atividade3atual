@@ -1,21 +1,22 @@
 package servletsExerc;
 
-import java.sql.Date;
 import java.sql.Time;
+import java.util.Date;
 
 import javax.servlet.http.HttpServlet;
 
-public class BlogMensagem extends HttpServlet {
-	/**
-	 * 
-	 */
-	private static final long serialVersionUID = 1L;
-
-	public class Mensagem{
+public class MensagemBlog {
+	
 		private String mensagem;
 		private Date dataMensagem;
 		private Time horaMensagem;
 		private String usuario;
+		private int id;
+		
+		public MensagemBlog() {
+			this.dataMensagem = new Date();
+			this.horaMensagem = new Time(System.currentTimeMillis());
+		}
 		
 		public String getUsuario() {
 			return usuario;
@@ -41,8 +42,13 @@ public class BlogMensagem extends HttpServlet {
 		public void setHoraMensagem(Time horaMensagem) {
 			this.horaMensagem = horaMensagem;
 		}
+
+		public int getId() {
+			return id;
+		}
+
+		public void setId(int id) {
+			this.id = id;
+		}
 		
-		
-	}
-	
 }

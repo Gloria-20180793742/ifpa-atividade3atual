@@ -23,7 +23,7 @@
 <br>
 <a href="exercicio6.jsp">Exercício 6 - Template JSP (Página index)</a>
 <br>
-<a href="blog.jsp">Exercício 7 - Miniblog</a>
+<a href="login.jsp">Exercício 7 - Miniblog</a>
 <br>
 
 </body>
