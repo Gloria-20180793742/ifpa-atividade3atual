@@ -8,7 +8,7 @@
 </head>
 <body>
 	
-	<h1>Ola ${NOME_SESSION} </h1>
+	<h1>Ola ${NOME_SESSION}</h1>
 	<h2>Mensagem:</h2>
 	<form action="ControleBlog">
 		<textarea rows="3" cols="40" value="" name="mensagem"></textarea>
